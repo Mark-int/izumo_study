@@ -1,16 +1,4 @@
-@charset "UTF-8"
-
-
 /*全体*/
-body {
-    font-family: "sans-serif";
-    font-size: 100%;
-    color: black;
-    margin:0 auto
-}
-ul{
-    list-style: none;
-}
 
 html {
     font-size: 100%;
@@ -34,11 +22,22 @@ html {
     padding: 0;
 }
 *, :after, :before {
-    background-repeat: no-repeat;
     box-sizing: inherit;
 }
 
+ul{
+    list-style: none;
+}
 
+body {
+    font-family: "ヒラギノ角ゴ ProN W3", "Yu Gothic", Verdana, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background-color: rgba(248, 244, 244, 0.911);
+    margin:0 auto
+}
+img {
+    border-style: none;
+}
 
 /*Body- header*/
 #header {
@@ -59,7 +58,7 @@ html {
 #header ul li {
     margin: 10px;
 }
-img[src$="IMG/FACEBOOK風のアイコン素材 その3.jpeg"]{
+img[src$="https://github.com/Mark-int/izumo_study/blob/main/FACEBOOK%E9%A2%A8%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%B4%A0%E6%9D%90%20%E3%81%9D%E3%81%AE3.jpeg?raw=true"]{
     height: 30px;
     width: 30px;
 }
@@ -105,22 +104,23 @@ section {
     justify-content: space-between;
     align-items: center;
 }
-img[src$="IMG/Udemy.png"] {
+img[src$="https://github.com/Mark-int/izumo_study/blob/main/Udemy.png?raw=true"] {
     height: 126px;
     width: 240px;
 }
-img[src$="IMG/Progate.png"] {
+img[src$="https://github.com/Mark-int/izumo_study/blob/main/Progate.png?raw=true"] {
     height: 55px;
     width: 240px;
 }
-img[src$="IMG/youtube.jpg"] {
+img[src$="https://github.com/Mark-int/izumo_study/blob/main/youtube.jpg?raw=true"] {
     height: 126px;
     width: 240px;
 }
 
+
 /*Body-footer*/
 
-#footer {
+#footer p {
     font-size: 0.5rem;
     padding: 10px 0px;
     text-align: center;
